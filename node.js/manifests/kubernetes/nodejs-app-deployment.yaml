@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
         - name: nodejs
-          image: mennatallah2001/nodejs-app-promethues:v2 
+          image: mennatallah2001/nodejs-app-promethues:v3 
           ports:
             - containerPort: 3000 

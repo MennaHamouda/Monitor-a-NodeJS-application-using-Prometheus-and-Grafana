@@ -9,7 +9,7 @@ const register = new client.Registry();
 
 // Add a default label which is added to all metrics
 register.setDefaultLabels({
-  app: 'nodejs_dolfined_app'
+  app: 'nodejs_monitoring_app'
 });
 
 // Enable the collection of default metrics
