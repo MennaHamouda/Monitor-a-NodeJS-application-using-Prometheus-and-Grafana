@@ -2,7 +2,7 @@
 
 send_requests() {
     while true; do
-        curl -sS http://192.168.234.138:80841 > /dev/null
+        curl -sS http:///192.168.234.138:30481 > /dev/null
         echo "Request sent"
         sleep 0.0667  
     done
